@@ -6,6 +6,11 @@ public class BankAccount {
         numConto = lastAssignedNumber;  //Incremento per il successivo oggetto il numero di conto
     }
 
+    //Overload
+    public BankAccount(){
+        this(0);
+    }
+
 //Metodo di get che ritorna il numero di conto di ogni account
     public int getNumConto(){return  numConto;}
 
