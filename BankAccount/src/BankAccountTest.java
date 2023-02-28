@@ -1,5 +1,6 @@
 public class BankAccountTest {
     public static void main(String[] args){
+   /*
     //Istanzio due oggetti banca
         BankAccount banca = new BankAccount(500);
         BankAccount banca2 = new BankAccount(200);
@@ -14,22 +15,26 @@ public class BankAccountTest {
     //Stampo il saldo finale di entrambi
         System.out.println("Il saldo finale è: " + banca.getBalance() + " con Numero Conto = " + banca.getNumConto());
         System.out.println("Il saldo finale è: " + banca2.getBalance() + " con Numero Conto = " + banca2.getNumConto());
+    */
+    //2
+        Bank fineco = new Bank();
 
-    //Creo due conti di tipo Banca
-        Bank conto = new Bank(new BankAccount[]{banca});
-        Bank conto2 = new Bank(new BankAccount[]{banca2});
+        fineco.getContoCorrente(0).deposit(7000);
+        fineco.getContoCorrente(0).withdraw(300);
+        fineco.getContoCorrente(0).printConto();
+        System.out.println("Il bilancio del primo conto è: " + fineco.getContoCorrente(0).getBalance());
 
-    //Stampo il totale del numero di depositi della banca
+        fineco.getContoCorrente(1).deposit(4000);
+        fineco.getContoCorrente(1).withdraw(50);
+        fineco.getContoCorrente(1).printConto();
+        System.out.println("Il bilancio del secondo conto è: " + fineco.getContoCorrente(1).getBalance());
 
-        System.out.printf("\nIl numero totale dei depositi è: ", conto.getTotalDeposit());
+        fineco.taxConto();
+        System.out.println("\nIl bilancio del primo conto dopo tassamento è: " + fineco.getContoCorrente(0).getBalance());
+        System.out.println("Il bilancio del secondo conto dopo tassamento è: " + fineco.getContoCorrente(1).getBalance());
 
-    //Stampo il numero di conto formattato a 10cifre
-        System.out.println("\nIl numero del conto del primo account è: ");
-        conto.printConto();
-        System.out.println("Il numero del conto del secondo account è: ");
-        conto2.printConto();
+        System.out.println("\nIl bilancio del " + fineco.getContoCorrente(0).printConto() + " conto dopo conversione è: " + fineco.getContoCorrente(0).covert());
+        System.out.println("Il bilancio del " + fineco.getContoCorrente(1).printConto() + " conto dopo conversione è: " + fineco.getContoCorrente(1).covert());
 
-    //Converto il saldo
-        conto.currentConverter();
     }
 }
