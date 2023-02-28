@@ -15,6 +15,21 @@ public class BankAccountTest {
         System.out.println("Il saldo finale è: " + banca.getBalance() + " con Numero Conto = " + banca.getNumConto());
         System.out.println("Il saldo finale è: " + banca2.getBalance() + " con Numero Conto = " + banca2.getNumConto());
 
+    //Creo due conti di tipo Banca
+        Bank conto = new Bank(new BankAccount[]{banca});
+        Bank conto2 = new Bank(new BankAccount[]{banca2});
 
+    //Stampo il totale del numero di depositi della banca
+
+        System.out.printf("\nIl numero totale dei depositi è: ", conto.getTotalDeposit());
+
+    //Stampo il numero di conto formattato a 10cifre
+        System.out.println("\nIl numero del conto del primo account è: ");
+        conto.printConto();
+        System.out.println("Il numero del conto del secondo account è: ");
+        conto2.printConto();
+
+    //Converto il saldo
+        conto.currentConverter();
     }
 }

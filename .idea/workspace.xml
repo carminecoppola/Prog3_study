@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2101a54-5e13-449a-9f61-5601983131c4" name="Changes" comment="Finestra di Dialogo">
+    <list default="true" id="c2101a54-5e13-449a-9f61-5601983131c4" name="Changes" comment="AddInterest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BankAccount/src/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccount/src/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankAccount/src/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccount/src/BankAccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,13 +33,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-19"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/BankAccount/src" />
@@ -102,7 +103,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677511660407</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="AddInterest">
+      <created>1677513053989</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677513053989</updated>
+    </task>
+    <task id="LOCAL-00009" summary="AddInterest">
+      <created>1677513072156</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677513072156</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -111,6 +126,7 @@
     <MESSAGE value="Purse" />
     <MESSAGE value="c" />
     <MESSAGE value="Finestra di Dialogo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finestra di Dialogo" />
+    <MESSAGE value="AddInterest" />
+    <option name="LAST_COMMIT_MESSAGE" value="AddInterest" />
   </component>
 </project>
