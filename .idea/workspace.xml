@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2101a54-5e13-449a-9f61-5601983131c4" name="Changes" comment="Bank">
+      <change afterPath="$PROJECT_DIR$/MVC/MVC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccount/src/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccount/src/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccount/src/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccount/src/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccount/src/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccount/src/BankAccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +37,14 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/BankAccount/src" />
     </key>
@@ -125,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677584333078</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Bank">
+      <created>1677591739905</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677591739905</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,5 +147,15 @@
     <MESSAGE value="AddInterest" />
     <MESSAGE value="Bank" />
     <option name="LAST_COMMIT_MESSAGE" value="Bank" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
