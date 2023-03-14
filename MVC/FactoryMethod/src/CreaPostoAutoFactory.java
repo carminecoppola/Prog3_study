@@ -1,4 +1,4 @@
-public class CreaPostoAutoFactory implements CreaPostoFactory{
+public class CreaPostoAutoFactory extends FactoryCreaPosto{
     public Posto creaPosto(){
         return new PostoAuto();
     }

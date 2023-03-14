@@ -1,4 +1,4 @@
-public class CreaPostoFurgoneFactory implements CreaPostoFactory{
+public class CreaPostoFurgoneFactory extends FactoryCreaPosto {
 
     public Posto creaPosto(){
         return new PostoFurgone();
