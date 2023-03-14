@@ -3,7 +3,6 @@ public class Main {
 
      FactoryCreaPosto factory = new CreaPostoAutoFactory();
      Posto posto = factory.creaPosto();
-
      posto.parcheggia();    //L'auto si è parcheggiata
 
     factory = new CreaPostoMotoFactory();
@@ -13,6 +12,7 @@ public class Main {
     factory = new CreaPostoFurgoneFactory();
     posto = factory.creaPosto();
     posto.parcheggia();   //Il furgone si è parcheggiato
+
 
 
     }
